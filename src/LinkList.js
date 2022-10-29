@@ -2,42 +2,58 @@ import React from 'react';
 
 function LinkList() {
   return (
-    <ul className='links'>
-      <li className='link'>
-        <a href='https://training.zuri.team/' target='_blank'>
-          {' '}
-          <button className='btn_zuri btn'> Zuri Team</button>{' '}
+    <article className='links'>
+      <div className='link'>
+        <a
+          href='https://training.zuri.team/'
+          target='_blank'
+          id='btn_zuri'
+          className='btn'
+        >
+          Zuri Team
         </a>
-      </li>
-      <li className='link'>
-        <a href='https://books.zuri.team/ target="_blank"'>
-          {' '}
-          <button className='books btn'>Zuri Books</button>{' '}
+      </div>
+      <div className='link'>
+        <a
+          href='https://books.zuri.team/'
+          target='_blank'
+          id='books'
+          className='btn'
+        >
+          Zuri Books
         </a>
-      </li>
-      <li className='link'>
+      </div>
+      <div className='link'>
         <a
           href='https://books.zuri.team/python-for-beginners?ref_id=nath'
           target='_blank'
+          id='book_python'
+          className='btn'
         >
-          <button className='book_python btn'>Python Book</button>
+          Python Book
         </a>
-      </li>
-      <li className='link'>
-        <a href='https://background.zuri.team/' target='_blank'>
-          {' '}
-          <button className='pitch btn'>
-            Background Checks for Coders
-          </button>{' '}
+      </div>
+      <div className='link'>
+        <a
+          href='https://background.zuri.team/'
+          target='_blank'
+          id='pitch'
+          className='btn'
+        >
+          Background Checks for Coders
         </a>
-      </li>
-      <li className='link'>
-        <a href='https://books.zuri.team/design-rules' target='_blank'>
-          {' '}
-          <button className='book_design btn'>Design Books</button>{' '}
+      </div>
+      <div className='link'>
+        <a
+          href='https://books.zuri.team/design-rules'
+          target='_blank'
+          id='book_design'
+          className='btn'
+        >
+          Books
         </a>
-      </li>
-    </ul>
+      </div>
+    </article>
   );
 }
 

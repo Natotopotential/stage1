@@ -6,7 +6,7 @@ Variables
 
 :root {
   --primaryColor: #fff;
-  --secondaryColor: #f4f5f7;
+  --secondaryColor: #6369756f;
   --fontColor: #101828;
   --fontFamily: inter;
   --spacing: 0.1rem;
@@ -98,18 +98,16 @@ p {
   /* background-color: #f4f5f7; */
   width: 90vw;
   height: 100vh;
-  margin: 64px 200px;
+  margin: 64px 5vw;
   max-width: var(--max-width);
   /* border: 0.2rem solid red; */
   position: absolute;
 }
 
-span {
+.twitter-span {
   color: blue;
   font-style: italic;
 }
-
-
 
 .profile {
   width: 20vw;
@@ -130,7 +128,7 @@ span {
   color: var(--fontColor);
   margin-left: -7rem;
   margin-top: 0.5rem;
-    text-transform: lowercase;
+  text-transform: lowercase;
   display: inline-block;
   /* border: .2rem red solid; */
   width: 25vw;
@@ -147,23 +145,27 @@ span {
 .link {
   background-color: var(--secondaryColor);
   margin: 2rem 0;
-  height: 3.5rem;
+  height: 4rem;
+  border-radius: 1rem;
+  text-align: center;
+  padding: 1rem;
 }
 
 .btn {
-  outline: hidden;
-  border: hidden;
-  margin: 1rem 425px;
-  width: 20vw;
-  height: 2rem;
+  /* outline: hidden; */
+  color: var(--fontColor);
+  margin-top: 2rem;
+  width: 25vw;
+  height: 4rem;
   font-size: 1.3rem;
-  background: transparent;
 }
 
-.footer {
+.section-footer {
   height: 10vh;
-  width: 72.5vw;
+  width: 90vw;
   /* border: 0.2rem green solid; */
+  margin-top: 5rem ;
+  margin-bottom: 2.5rem;
   padding: 0.8rem;
 
   display: flex;
@@ -172,18 +174,56 @@ span {
 .git,
 .slacks {
   height: 40px;
-  text-align: center;
-  /* border: 0.2rem red solid; */
 }
 
-.footer-img {
-  margin: 0 0.2rem;
+.section-img {
+  margin: 0 0.5rem;
 }
 
-@media screen and (min-width: 992px) {
-  .section {
-    width: 95vw;
-  }
+.footer {
+  background: var(--primaryColor);
+  border-top: 1px solid #eaecf0;
+  /* padding: 5rem 0; */
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 25vh;
+  width: 100%;
 }
 
-/* profile */
+.footer-content {
+  height: auto;
+  margin-left: 2rem;
+}
+
+.footer-imgs {
+  display: inline;
+  /* margin: 0 3rem; */
+}
+
+.zurilogo {
+  color: var(--fontColor);
+  display: inline;
+}
+
+.i4glogo {
+  height: 40px;
+}
+
+.attribution {
+  display: inline-block;
+  margin-left: 12rem;
+  margin-right: 12rem;
+  color: var(--fontColor);
+}
+
+.zuri {
+  background: red;
+  display: inline-block;
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 50%;
+  font-size: 1rem;
+}
