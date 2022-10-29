@@ -9,11 +9,11 @@ function App() {
   return (
     <main className='section'>
       <section className='profile'>
-        <img src={profilePhoto} alt='profilePhoto' className='profile_img' />
-        <h2 className='twitter'>
+        <img src={profilePhoto} alt='profilePhoto' id='profile_img' />
+        <h2 id='twitter'>
           <span className='twitter-span'>twitter:</span>@nath7521
         </h2>
-        <div className='slack'>nath</div>
+        <div id='slack'>nath752L</div>
       </section>
       <LinkList />
 

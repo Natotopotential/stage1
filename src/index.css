@@ -118,13 +118,13 @@ p {
   padding: 1rem 6rem;
 }
 
-.profile_img {
+#profile_img {
   width: 125px;
   height: 125px;
   border-radius: 50%;
 }
 
-.twitter {
+#twitter {
   color: var(--fontColor);
   margin-left: -7rem;
   margin-top: 0.5rem;
