@@ -6,7 +6,7 @@ function LinkList() {
       <a
         href='https://training.zuri.team/'
         target='_blank'
-        id='btn_zuri'
+        id='btn__zuri'
         className='btn'
       >
         Zuri Team
@@ -18,16 +18,16 @@ function LinkList() {
         id='books'
         className='btn'
       >
-         Zuri Books
+        Zuri Books
       </a>
 
       <a
         href='https://books.zuri.team/python-for-beginners?ref_id=nath'
         target='_blank'
-        id='book_python'
+        id='book__python'
         className='btn'
       >
-         Python Book
+        Python Book
       </a>
 
       <a
@@ -36,13 +36,13 @@ function LinkList() {
         id='pitch'
         className='btn'
       >
-         Checks for Coders
+        Checks for Coders
       </a>
 
       <a
         href='https://books.zuri.team/design-rules'
         target='_blank'
-        id='book_design'
+        id='book__design'
         className='btn'
       >
         Books
