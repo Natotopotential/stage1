@@ -9,7 +9,7 @@ function LinkList() {
         id='btn_zuri'
         className='btn'
       >
-        <div className='link'>Zuri Team</div>
+        Zuri Team
       </a>
 
       <a
@@ -18,7 +18,7 @@ function LinkList() {
         id='books'
         className='btn'
       >
-        <div className='link'> Zuri Books</div>
+         Zuri Books
       </a>
 
       <a
@@ -27,7 +27,7 @@ function LinkList() {
         id='book_python'
         className='btn'
       >
-        <div className='link'> Python Book</div>
+         Python Book
       </a>
 
       <a
@@ -36,7 +36,7 @@ function LinkList() {
         id='pitch'
         className='btn'
       >
-        <div className='link'>Background Checks for Coders</div>
+         Checks for Coders
       </a>
 
       <a
@@ -45,7 +45,7 @@ function LinkList() {
         id='book_design'
         className='btn'
       >
-        <div className='link'>Books</div>
+        Books
       </a>
     </article>
   );

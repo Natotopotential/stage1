@@ -108,12 +108,30 @@ p {
   color: blue;
   font-style: italic;
 }
-.profile {
+.profile{
+  display: flex;
+  justify-content: center;
+}
+
+.profile-info {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
+
+.share{
+border: .2rem var(--secondaryColor) dashed;
+height: 2.5rem;
+width: 2.5rem;
+background-color: var(--primaryColor);
+text-align: center;
+padding-top: .2rem;
+border-radius: 50%;
+cursor: pointer;
+}
+
+
 
 #profile__img {
   width: 125px;
@@ -138,20 +156,16 @@ p {
   height: 80vh;
 }
 
-.link {
+
+.btn {
   background-color: var(--secondaryColor);
-  margin: 2rem 0;
-  height: 4rem;
+  display: block;
+  color: var(--fontColor);
+   margin: 2rem 0;
+  margin-top: 2rem;
   border-radius: 1rem;
   text-align: center;
   padding: 1rem;
-}
-
-.btn {
-  /* outline: hidden; */
-  color: var(--fontColor);
-  margin-top: 2rem;
-  width: 25vw;
   height: 4rem;
   font-size: 1.3rem;
   
@@ -161,7 +175,7 @@ p {
   height: 10vh;
   width: 90vw;
   /* border: 0.2rem green solid; */
-  margin-top: 5rem;
+  margin-top: 8rem;
   margin-bottom: 2.5rem;
   padding: 0.8rem;
 
@@ -209,7 +223,7 @@ p {
 .i4glogo {
   display: block;
   height: 40px;
-}
+padding: .3rem;}
 
 .attribution {
   display: inline-block;
@@ -262,10 +276,17 @@ p {
     margin-left: -12rem;
     margin-top: -0.7rem;
   }
+
 }
 
 @media (min-width: 800px) {
   .attribution {
+    
     text-align: center;
   }
+  .share{
+
+padding-top: .1rem;
+
+}
 }

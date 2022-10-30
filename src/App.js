@@ -4,16 +4,21 @@ import slackLogo from './image/slacklogo.png';
 import gitHubLogo from './image/gitHubLogo.png';
 import i4gLogo from './image/i4gLogo.png';
 import LinkList from './LinkList';
+import icon from './image/icon.svg'
+import I4G from './image/I4G.svg'
 
 function App() {
   return (
     <main className='section'>
       <section className='profile'>
-        <img src={profilePhoto} alt='profilePhoto' id='profile__img' />
-        <h2 id='twitter'>
-          @nath7521
-        </h2>
-        <div id='slack'>nath752L</div>
+        <div className='profile-info'>
+          <img src={profilePhoto} alt='profilePhoto' id='profile__img' />
+          <h2 id='twitter'>@nath7521</h2>
+          {/* <div id='slack'>nath752L</div> */}
+        </div>
+        <button className='share'>
+          <img src={icon} alt="" />
+        </button>
       </section>
       <LinkList />
 
@@ -28,11 +33,12 @@ function App() {
             Zuri<span className='zuri'></span>Internship
           </h2>
 
-          <p className='attribution  footer-imgs'>HNG Internship 9 Frontend Task</p>
-          <img src={i4gLogo} alt='i4gLogo' className='i4glogo footer-imgs'/>
+          <p className='attribution  footer-imgs'>
+            HNG Internship 9 Frontend Task
+          </p>
+          <img src={I4G} alt='i4gLogo' className='i4glogo footer-imgs' />
         </div>
       </footer>
-     
     </main>
   );
 }
