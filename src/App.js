@@ -24,19 +24,15 @@ function App() {
 
       <footer className='footer'>
         <div className='footer-content'>
-          <div className='footer-imgs'>
-            <h2 className='zurilogo'>
-              Zuri<span className='zuri'></span>Internship
-            </h2>
-          </div>
-          <div className='footer-imgs'>
-            <p className='attribution '>HNG Internship 9 Frontend Task</p>
-          </div>
-          <div className='footer-imgs'>
-            <img src={i4gLogo} alt='i4gLogo' className='i4glogo ' />
-          </div>
+          <h2 className='zurilogo footer-imgs'>
+            Zuri<span className='zuri'></span>Internship
+          </h2>
+
+          <p className='attribution  footer-imgs'>HNG Internship 9 Frontend Task</p>
+          <img src={i4gLogo} alt='i4gLogo' className='i4glogo footer-imgs'/>
         </div>
       </footer>
+     
     </main>
   );
 }

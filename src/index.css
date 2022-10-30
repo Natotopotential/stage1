@@ -92,8 +92,8 @@ p {
   }
 }
 /*  global classes */
-
 /* section */
+
 .section {
   /* background-color: #f4f5f7; */
   width: 90vw;
@@ -108,14 +108,11 @@ p {
   color: blue;
   font-style: italic;
 }
-
 .profile {
-  width: 20vw;
-  height: 20vh;
-  /* border: 0.2rem solid green; */
-  position: relative;
-  left: 35%;
-  padding: 1rem 6rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 #profile_img {
@@ -132,7 +129,7 @@ p {
   display: inline-block;
   /* border: .2rem red solid; */
   width: 25vw;
-  margin-left: -8rem;
+  margin-left: -5rem;
 }
 
 .links {
@@ -164,7 +161,7 @@ p {
   height: 10vh;
   width: 90vw;
   /* border: 0.2rem green solid; */
-  margin-top: 5rem ;
+  margin-top: 5rem;
   margin-bottom: 2.5rem;
   padding: 0.8rem;
 
@@ -189,13 +186,14 @@ p {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  height: 25vh;
+  height: 30vh;
   width: 100%;
 }
 
 .footer-content {
+  display: inline-block;
   height: auto;
-  margin-left: 2rem;
+  margin-left: 0rem;
 }
 
 .footer-imgs {
@@ -205,16 +203,17 @@ p {
 
 .zurilogo {
   color: var(--fontColor);
-  display: inline;
+  display: block;
 }
 
 .i4glogo {
+  display: block;
   height: 40px;
 }
 
 .attribution {
   display: inline-block;
-  margin-left: 12rem;
+  margin-left: 0rem;
   margin-right: 12rem;
   color: var(--fontColor);
 }
@@ -226,4 +225,46 @@ p {
   width: 0.5rem;
   border-radius: 50%;
   font-size: 1rem;
+}
+
+@media (min-width: 600px) {
+  .footer-content {
+    display: flex;
+    /* flex-wrap: wrap; */
+    height: 25vh;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+    width: 100%;
+    /* border: red solid 0.2rem; */
+  }
+
+  .footer-imgs {
+    color: var(--fontColor);
+    /* border: red solid 0.2rem; */
+    height: 2rem;
+    min-width: 11rem;
+    display: inline;
+    align-self: center;
+    flex: 0 0 calc(33.3% - 0.2rem);
+  }
+  .attribution {
+    color: var(--secondaryColor);
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+    padding: 0.2rem;
+  }
+  .zurilogo {
+    font-size: 1rem;
+  }
+  .i4glogo {
+    margin-left: -12rem;
+    margin-top: -0.7rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .attribution {
+    text-align: center;
+  }
 }
