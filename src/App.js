@@ -14,7 +14,7 @@ function App() {
         <div className='profile-info'>
           <img src={profilePhoto} alt='profilePhoto' id='profile__img' />
           <h2 id='twitter'>@nath7521</h2>
-          {/* <div id='slack'>nath752L</div> */}
+          <h2 id='slack'>nath752L</h2>
         </div>
         <button className='share'>
           <img src={icon} alt="" />

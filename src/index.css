@@ -108,7 +108,7 @@ p {
   color: blue;
   font-style: italic;
 }
-.profile{
+.profile {
   display: flex;
   justify-content: center;
 }
@@ -120,18 +120,16 @@ p {
   align-items: center;
 }
 
-.share{
-border: .2rem var(--secondaryColor) dashed;
-height: 2.5rem;
-width: 2.5rem;
-background-color: var(--primaryColor);
-text-align: center;
-padding-top: .2rem;
-border-radius: 50%;
-cursor: pointer;
+.share {
+  border: 0.2rem var(--secondaryColor) dashed;
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: var(--primaryColor);
+  text-align: center;
+  padding-top: 0.2rem;
+  border-radius: 50%;
+  cursor: pointer;
 }
-
-
 
 #profile__img {
   width: 125px;
@@ -148,6 +146,14 @@ cursor: pointer;
   text-align: center;
 }
 
+#slack {
+  color: var(--fontColor);
+  margin-top: 0.5rem;
+  text-transform: lowercase;
+  text-align: center;
+  display: none;
+}
+
 .links {
   /* border: 0.2rem red solid; */
   margin-top: -6rem;
@@ -156,19 +162,17 @@ cursor: pointer;
   height: 80vh;
 }
 
-
 .btn {
   background-color: var(--secondaryColor);
   display: block;
   color: var(--fontColor);
-   margin: 2rem 0;
+  margin: 2rem 0;
   margin-top: 2rem;
   border-radius: 1rem;
   text-align: center;
   padding: 1rem;
   height: 4rem;
   font-size: 1.3rem;
-  
 }
 
 .section-footer {
@@ -223,7 +227,8 @@ cursor: pointer;
 .i4glogo {
   display: block;
   height: 40px;
-padding: .3rem;}
+  padding: 0.3rem;
+}
 
 .attribution {
   display: inline-block;
@@ -276,17 +281,13 @@ padding: .3rem;}
     margin-left: -12rem;
     margin-top: -0.7rem;
   }
-
 }
 
 @media (min-width: 800px) {
   .attribution {
-    
     text-align: center;
   }
-  .share{
-
-padding-top: .1rem;
-
-}
+  .share {
+    padding-top: 0.1rem;
+  }
 }
