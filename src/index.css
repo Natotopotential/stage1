@@ -1,5 +1,5 @@
 /*
-=============== 
+===============
 Variables
 ===============
 */
@@ -17,7 +17,7 @@ Variables
   --fixed-width: 620px;
 }
 /*
-=============== 
+===============
 Global Styles
 ===============
 */
@@ -123,13 +123,11 @@ p {
 
 #twitter {
   color: var(--fontColor);
-  margin-left: -7rem;
   margin-top: 0.5rem;
   text-transform: lowercase;
   display: inline-block;
   /* border: .2rem red solid; */
-  width: 25vw;
-  margin-left: -5rem;
+  text-align: center;
 }
 
 .links {
