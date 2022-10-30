@@ -134,6 +134,7 @@ p {
 
 .links {
   /* border: 0.2rem red solid; */
+  margin-top: -6rem;
   position: relative;
   top: 80px;
   height: 80vh;
