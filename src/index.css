@@ -115,7 +115,7 @@ p {
   align-items: center;
 }
 
-#profile_img {
+#profile__img {
   width: 125px;
   height: 125px;
   border-radius: 50%;
@@ -154,6 +154,7 @@ p {
   width: 25vw;
   height: 4rem;
   font-size: 1.3rem;
+  
 }
 
 .section-footer {
@@ -215,6 +216,7 @@ p {
   margin-left: 0rem;
   margin-right: 12rem;
   color: var(--fontColor);
+  font-weight: bold;
 }
 
 .zuri {
